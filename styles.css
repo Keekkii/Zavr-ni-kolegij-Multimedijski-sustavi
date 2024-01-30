@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding-top: 2vh;
+    
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/sah2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+
+.slika1{
+    margin-top: 5%;
+}
+
+.pozadina {
+    background-color: #212529;
+}
+
+.card-img-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+  }
+
+  .card:hover .card-img-overlay {
+    display: block;
+  }
+
+  .center-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .center-list li {
+    text-align: center;
+  }
+
+.boja {
+    background-color: #F4F873 !important;
+}
+
+.hero2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/chess-2730034_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
